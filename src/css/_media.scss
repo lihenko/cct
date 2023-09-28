@@ -1,0 +1,26 @@
+@media screen and (min-width: 480px){
+  .publication-grid-buttons a{
+    margin-bottom: 0;
+    display: inline-block;
+    width: 104px;
+    &:not(:first-child){
+      margin-left: 10px;
+    }
+  }
+      
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 992px){
+
+}
+
+@media screen and (min-width: 1250px){
+  .services-slider-title{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
