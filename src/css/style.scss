@@ -284,4 +284,51 @@ ul#contacts{
   }
 }
 
+.marked-list{
+  & li{
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 45px;
+    &::before{
+      content: '';
+      width: 25px;
+      height: 25px;
+      background-image: url(../img/big-checkmark-done.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      top: 5px;
+      left: 3px;
+    }
+  }
+}
+
+#equipped{
+  background-image: url(../img/about-bg.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blue-marked-list{
+  & li{
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 25px;
+    &::before{
+      content: '';
+      width: 25px;
+      height: 25px;
+      background-image: url(../img/double-checkmark-read-circle.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      top: 0;
+      left: 3px;
+    }
+  }
+}
+
 @import "./media";

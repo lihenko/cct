@@ -23,4 +23,28 @@
     padding-left: 60px;
     padding-right: 60px;
   }
+  .marked-list{
+    & li{
+      padding-left: 102px;
+      &::before{
+        content: '';
+        width: 42px;
+        height: 42px;
+        top: 8px;
+        left: 12px;
+      }
+    }
+  }
+  .blue-marked-list{
+    & li{
+      padding-left: 80px;
+      &::before{
+        content: '';
+        width: 36px;
+        height: 36px;
+        top: 0;
+        left: 15px;
+      }
+    }
+  }
 }
