@@ -401,4 +401,24 @@ ul#contacts{
   }
 }
 
+ul#contacts-page{
+  & svg{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+  & li{
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 40px;
+  }
+  & a{
+    color: #0B0F17;
+    &:hover{
+      color: #1086E2;
+    }
+  }
+}
+
 @import "./media";
