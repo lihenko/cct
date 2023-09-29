@@ -13,6 +13,14 @@
 
 @font-face{
 	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-MediumItalic.ttf');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face{
+	font-family: 'Montserrat';
 	src: url('../fonts/Montserrat-Bold.ttf');
 	font-weight: 700;
 	font-display: swap;

@@ -15,6 +15,22 @@
 }
 
 @media screen and (min-width: 992px){
+  .testimonial-body{
+    &::before{
+      content: '';
+      width: 62px;
+      height: 62px;
+      top: -35px;
+      left: 40px;
+    }
+    &::after{
+      content: '';
+      width: 62px;
+      height: 62px;
+      bottom: -35px;
+      right: 40px;
+    }
+  }
 
 }
 
@@ -46,5 +62,12 @@
         left: 15px;
       }
     }
+  }
+}
+
+@media screen and (min-width: 1600px){
+  .blue-bg-rounded-right{
+    border-top-right-radius: 99999999999px;
+    border-bottom-right-radius: 99999999999px;
   }
 }

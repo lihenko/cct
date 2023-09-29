@@ -258,7 +258,6 @@ body, html{
 }
 
 #accreditations{
-  background-image: url(../img/acreditation-bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -328,6 +327,77 @@ ul#contacts{
       top: 0;
       left: 3px;
     }
+  }
+}
+
+#about-hero{
+  background-image: url(../img/home-hero-bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#testimonial{
+  background-image: url(../img/about-bg.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blue-bg-rounded-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.gray-bg{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg, #ebeaed 0%, #FFFFFF 100%);
+  z-index: -1;
+}
+
+.hero-bg-lineral{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(238,238,238,0) 0%, #FFFFFF 100%);
+}
+
+.testimonial-body{
+  position: relative;
+  &::before{
+    content: '';
+    width: 42px;
+    height: 42px;
+    background-image: url(../img/quote.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -42px;
+    left: 0;
+  }
+  &::after{
+    content: '';
+    width: 42px;
+    height: 42px;
+    background-image: url(../img/quote.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: -42px;
+    right: 0;
   }
 }
 

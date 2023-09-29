@@ -67,6 +67,7 @@
     li.current-menu-item a, li.current-post-ancestor a{
         color: $omm-link-color-hover;
     }
+    
 
     a,
     .omni-dropdown-toggle {
@@ -94,6 +95,8 @@
         }
     }
 }
+
+
 
 .omni-dropdown-toggle {
     cursor: pointer;
@@ -435,6 +438,10 @@ body .omni-mobile-menu ul.sub-menu{
 }
 
 @media screen and (min-width: 992px)  {
+    body ul#main-menu li.current-menu-item a, body ul#main-menu li.current-post-ancestor a{
+        color: #fff;
+    }
+
   body ul#main-menu{
     background-color: transparent;
     display: flex;
